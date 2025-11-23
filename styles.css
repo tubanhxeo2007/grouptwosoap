@@ -1,0 +1,45 @@
+
+/* styles.css - basic styling for website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #333333;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #333333;
+    color: #ffffff;
+}
